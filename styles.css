@@ -66,6 +66,7 @@
     border-bottom: 2px solid #24292e;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
   
   h3 {
@@ -82,6 +83,10 @@
   li {
     margin-bottom: 0.5rem;
   }
+
+  #bold {
+    font-weight: 800;
+  }
   
   /* Image Styles */
   #img-div {
@@ -92,8 +97,10 @@
   #image {
     max-width: 100%;
     height: auto;
+    margin: 0 auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: block;
   }
   
   #img-caption {
